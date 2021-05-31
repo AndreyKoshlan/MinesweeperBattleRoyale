@@ -1,0 +1,50 @@
+QListWidget {
+    font-family: Bainsley;
+    font-size: 42px;
+    color: #ECD7F9;
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:0, stop:0 #834d9b, stop:1 #b84e95);
+    alternate-background-color: qlineargradient( x1:0 y1:0, x2:1 y2:0, stop:0 #653b78, stop:1 #a44183);
+    border-radius: 10px;
+    border: 2px solid #ECD7F9;
+    margin: 0px 0px 0px 0px;
+}
+
+QTableWidget {
+    font-family: Bainsley;
+    font-size: 36px;
+    color: #ECD7F9;
+    background: #4C4452;
+    alternate-background-color: #4C4452;
+    border-radius: 10px;
+    border: 2px solid #ECD7F9;
+    margin: 0px 0px 0px 0px;
+}
+
+QHeaderView::section {
+    background-color: #4C4452;
+    padding: 4px;
+    border: 1px solid #ECD7F9;
+    font-family: Bainsley;
+    font-size: 36px;
+    color: #ECD7F9;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #4C4452;
+    border: 1px solid #ECD7F9;
+}
+
+QScrollBar:vertical {
+    border: 1px solid grey;
+    background: #ECD7F9;
+}
+
+QScrollBar::add-line {
+    border: 1px none;
+    border-color: #A0A094;
+}
+
+QScrollBar::sub-line {
+    border: 1px none;
+    border-color: #A0A094;
+}

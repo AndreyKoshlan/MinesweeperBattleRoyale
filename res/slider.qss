@@ -1,0 +1,25 @@
+QSlider {
+    background-color: #00000000;
+    min-height: 68px;
+}
+
+QSlider::groove:horizontal {
+        background-color: #4C4452;
+        border: 0px solid #00000000;
+        border-radius: 4px;
+        height: 42px;
+}
+
+QSlider::handle:horizontal {
+        background-color: #ECD7F9;
+        border: 0px solid #00000000;
+        width: 52px;
+        height: 52px;
+        border-radius: 5px;
+        margin-top: -5px;
+        margin-bottom: -5px;
+}
+
+QSlider::handle:horizontal:hover {
+        background-color: white;
+}

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/textures">
+        <file alias="button">res/button.png</file>
+        <file alias="button_border">res/button_border.png</file>
+        <file alias="button_glint">res/button_shine.png</file>
+        <file alias="background">res/background.png</file>
+        <file alias="logo">res/logo.png</file>
+        <file alias="flag">res/flag.png</file>
+        <file alias="mine">res/mine.png</file>
+        <file alias="crown">res/crown.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="Bainsley">res/Bainsley.ttf</file>
+        <file alias="BainsleyBold">res/BainsleyBold.ttf</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file alias="slider">res/slider.qss</file>
+        <file alias="line">res/line.qss</file>
+        <file alias="list">res/list.qss</file>
+    </qresource>
+</RCC>

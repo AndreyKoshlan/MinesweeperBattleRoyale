@@ -1,0 +1,9 @@
+QLineEdit {
+    font-family: Bainsley;
+    border-radius: 10px;
+    border: 2px solid #ECD7F9;
+    padding: 0 8px;
+    background-color: #4C4452;
+    font-size:42px;
+    color:#ECD7F9;
+}
